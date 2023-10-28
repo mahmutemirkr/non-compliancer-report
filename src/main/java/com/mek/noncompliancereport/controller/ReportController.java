@@ -27,7 +27,7 @@ public class ReportController {
 
 
     @GetMapping("/report-register")
-    public String bookRegister() {
+    public String reportRegister() {
 
         return "reportRegister";
 
